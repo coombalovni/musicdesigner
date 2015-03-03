@@ -1,3 +1,31 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+
+header{
+
+}
+
+.header-img{
+	width: 100%;
+}
+
+.services{
+
+}
+
+.services img{
+	width: 50%;
+}
+
+.work{
+
+}
+
+.title{
+	text-align: center;
+}
+
+.client img{
+	width:150px;
+}
