@@ -7,77 +7,80 @@
 
     <title>Music Designer</title>
 
+    <!-- Font google -->
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,700,500' rel='stylesheet' type='text/css'>
 
+    <!-- Bootstrap sheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 
+    <!-- Font awesome sheet-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Slick sheet -->
+    <link rel="stylesheet" type="text/css" href="bower_components/slick/slick.css"/>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- Leave those next 4 lines if you care about users using IE8 -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="bower_components/slick/slick-theme.css"/>
+
+    <!-- Scrolling nav sheet -->
+    <link rel="stylesheet" type="text/css" href="css/scrolling-nav.css">
+
+    <!-- My sheet -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
 
   <body>
     <header ="">
 
-      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-          <ul class="nav navbar-nav">
-            <li><a href=""><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
-            <li><a href="">About</a></li>
-            <li><a href="">Work</a></li>
-            <li><a href="">Contact</a></li>
-          </ul>
-        </div>
-        <!-- /.container -->
+      <!-- Navigation -->
+      <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+              <div class="navbar-header page-scroll">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand page-scroll" href="#page-top">Music Designer</a>
+              </div>
+
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-collapse navbar-ex1-collapse">
+                  <ul class="nav navbar-nav">
+                      <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                      <li class="hidden">
+                          <a class="page-scroll" href="#page-top"></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#about">About</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#services">Services</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#contact">Work</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#contact">Contact</a>
+                      </li>
+                  </ul>
+              </div>
+              <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container -->
       </nav>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Music Designer</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-              <ul class="nav navbar-nav">
-                <li><a href=""><i class="fa fa-home fa-fw"></i>&nbsp; Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Work</a></li>
-                <li><a href="">Contact</a></li>
-              </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-
-      <!--<div>
-        <img class="header-img" src="landing_img.jpg"></img>
-      </div>-->
     </header>
 
-    <div class="container-fluid frame about-section">
+    <div class="container-fluid about-section">
+
       <div class="row title">
         <div class="col-md-12">
           <h2 class="page-header">ABOUT US</h2>
         </div>
       </div>
+
+            
       <div class="row">
         <div class="col-md-12">
           <p>
@@ -87,46 +90,21 @@
       </div>
 
       <div class="row">
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
+        <div class="col-md-12">
+          <div class="single-item">
+            <img class="img-responsive" src="http://placehold.it/960x540">
+            <img class="img-responsive" src="http://placehold.it/960x540">
+            <img class="img-responsive" src="http://placehold.it/960x540">
+            <img class="img-responsive" src="http://placehold.it/960x540">
+            <img class="img-responsive" src="http://placehold.it/960x540">
+          </div>
         </div>
       </div>
-
-      <div class="row">
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
-        </div>
-        <div class="col-xs-6 col-md-4">
-            <a href="#" class="thumbnail">
-              <img src="img/tmp.svg" alt="...">
-            </a>
-        </div>
-      </div>
-
     </div>
 
     <div class="container-fluid frame services-section">
 
-      <div class="row title">
+      <div class="row title" id="tmpp">
         <div class="col-md-12">
           <h2>OUR SKILLS</h2>
         </div>
@@ -290,7 +268,7 @@
           <div class="col-md-8">
             <form class="form-horizontal" method="post">
                 <fieldset>
-                    <!--<legend class="text-center header">Let's get in touch</legend>-->
+                    <legend class="text-center header">Let's get in touch</legend>
 
                     <div class="form-group">
                         <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
@@ -331,8 +309,6 @@
     </div>
 
 
-
-
     <footer>
 
 
@@ -342,8 +318,22 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 
-            <!-- jQuery -->
-    <script src="jquery.js"></script>
+
+    <!-- jQuery -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+    <!-- Slick jQuery -->
+    <script type="text/javascript" src="bower_components/slick/slick.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/scrolling-nav.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.waypoints.js"></script>
+
+
+
+    
 
   </body>
 </html>
