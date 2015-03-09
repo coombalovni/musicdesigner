@@ -1,10 +1,9 @@
 <!DOCTYPE html>
-<html class="full">
+<html class="full no-js" lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
     <title>Music Designer</title>
 
     <!-- Font google -->
@@ -27,10 +26,13 @@
     <!-- My sheet -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+
+    <link rel="stylesheet" href="css/font-awesome.css" type="text/css" />
   </head>
 
   <body>
-    <header ="">
+    <header>
 
       <!-- Navigation -->
       <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -56,14 +58,30 @@
                           <a class="page-scroll" href="#about">About</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="#services">Services</a>
+                          <a class="page-scroll" href="#service">Services</a>
                       </li>
                       <li>
-                          <a class="page-scroll" href="#contact">Work</a>
+                          <a class="page-scroll" href="#work">Work</a>
                       </li>
                       <li>
                           <a class="page-scroll" href="#contact">Contact</a>
                       </li>
+                      <li>
+                          <a class="page-scroll" href="#">App</a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#"><i class="fa fa-facebook"></i></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#"><i class="fa fa-twitter"></i></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#"><i class="fa fa-instagram"></i></a>
+                      </li>
+                      <li>
+                          <a class="page-scroll" href="#"><i class="fa fa-envelope"></i></a>
+                      </li>
+                      
                   </ul>
               </div>
               <!-- /.navbar-collapse -->
@@ -72,17 +90,16 @@
       </nav>
     </header>
 
-    <div class="container-fluid about-section">
+    <div id="about" class="container-fluid about-section">
 
-      <div class="row title">
-        <div class="col-md-12">
+      <div class="row-fluid">
+        <div class="col-md-12 span transparent animate-waypoint" data-animation="moveRight medium">
           <h2 class="page-header">ABOUT US</h2>
         </div>
       </div>
-
             
-      <div class="row">
-        <div class="col-md-12">
+      <div class="row-fluid">
+        <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
           <p>
             Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.
           </p>
@@ -102,75 +119,81 @@
       </div>
     </div>
 
-    <div class="container-fluid frame services-section">
+    <div id ="service" class="container-fluid frame service-section">
 
-      <div class="row title" id="tmpp">
-        <div class="col-md-12">
+      <div class="row-fluid">
+        <div class="col-md-12 span transparent animate-waypoint" data-animation="moveRight medium">
           <h2>OUR SKILLS</h2>
         </div>
       </div>
 
-      <div class="row title">
+      <div class="row-fluid title">
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <img src="img/noun_6000_cc.png">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <h3>Musical Composition</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <p>
+                  Auxerunt haec vulgi sordidioris audaciam, quod cum ingravesceret penuria commeatuum, famis et furoris inpulsu Eubuli cuiusdam inter suos clari domum ambitiosam ignibus subditis inflammavit rectoremque ut sibi iudicio imperiali addictum calcibus incessens et pugnis conculcans seminecem laniatu miserando discerpsit. post cuius lacrimosum interitum in unius exitio quisque imaginem periculi sui considerans documento recenti similia formidabat.
+                </p>
+              </div>
+            </div>
+          </div>
+              
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <img src="img/noun_19441_cc.png">
+            </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <h3>Sound Identity</h3>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <p>
+                  Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
+                </p>
+              </div>
+            </div>
+          </div>
 
-        <div class="col-md-4">
-          <div class="row">
-            <img src="img/noun_6000_cc.png">
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h3>Musical Composition</h3>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <img src="img/noun_84985_cc.png">
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p>
-                Auxerunt haec vulgi sordidioris audaciam, quod cum ingravesceret penuria commeatuum, famis et furoris inpulsu Eubuli cuiusdam inter suos clari domum ambitiosam ignibus subditis inflammavit rectoremque ut sibi iudicio imperiali addictum calcibus incessens et pugnis conculcans seminecem laniatu miserando discerpsit. post cuius lacrimosum interitum in unius exitio quisque imaginem periculi sui considerans documento recenti similia formidabat.
-              </p>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <h3>Librairy App</h3>
+              </div>
             </div>
-          </div>
-        </div>
-            
-        <div class="col-md-4">
-          <div class="row">
-            <img src="img/noun_19441_cc.png">
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h3>Sound Identity</h3>
+            <div class="row">
+              <div class="col-md-12 span transparent animate-waypoint" data-animation="medium">
+                <p>
+                  Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes.
+                </p>
+              </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p>
-                Ego vero sic intellego, Patres conscripti, nos hoc tempore in provinciis decernendis perpetuae pacis habere oportere rationem. Nam quis hoc non sentit omnia alia esse nobis vacua ab omni periculo atque etiam suspicione belli?
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="row">
-            <img src="img/noun_84985_cc.png">
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <h3>Librairy App</h3>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <p>
-                Alii summum decus in carruchis solito altioribus et ambitioso vestium cultu ponentes sudant sub ponderibus lacernarum, quas in collis insertas cingulis ipsis adnectunt nimia subtegminum tenuitate perflabiles, expandentes eas crebris agitationibus maximeque sinistra, ut longiores fimbriae tunicaeque perspicue luceant varietate liciorum effigiatae in species animalium multiformes.
-              </p>
-            </div>
-          </div>
-        </div>
-
       </div>
 
-    <div class="container-fluid frame work-section">
+      </div>
+    </div>
 
-      <div class="row title">
+    <div id="work" class="container-fluid frame work-section">
+
+      <div class="row">
         <div class="col-md-12">
           <h2>OUR WORKS</h2>
         </div>  
@@ -200,7 +223,7 @@
       </div>  
     </div>
 
-    <div class="container-fluid frame client-section">
+    <div id="client" class="container-fluid frame client-section">
       <div class="row title">
         <h2>OUR CLIENTS</h2>
       </div>
@@ -248,10 +271,11 @@
       </div>
     </div>
 
-    <div class="container-fluid contact-section">
+    <div id="contact" class="container-fluid contact-section">
       <div class="row title">
         <h2>OUR CONTACT</h2>
       </div>
+
         <div class="row">
           <div class="col-md-4">
             <div class="row">
@@ -259,7 +283,7 @@
             </div>  
             <div class="row">
               <iframe width="100%" height="300" frameborder="0" style="border:0"
-  src="https://www.google.com/maps/embed/v1/place?q=paris&key=AIzaSyCC5CPGjALKed5n4FO5arNHkRVA3IyHGKQ"></iframe>
+          src="https://www.google.com/maps/embed/v1/place?q=paris&key=AIzaSyCC5CPGjALKed5n4FO5arNHkRVA3IyHGKQ"></iframe>
             </div>
             <div class="row">
 
@@ -306,7 +330,10 @@
             </form>
           </div>
         </div>
-    </div>
+      </div>
+    
+
+
 
 
     <footer>
@@ -320,16 +347,16 @@
 
 
     <!-- jQuery -->
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
 
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <!--<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>-->
 
     <!-- Slick jQuery -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/scrolling-nav.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/waypoints.min.js"></script>
     <script type="text/javascript" src="bower_components/slick/slick.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/scrolling-nav.js"></script>
-    <script src="js/jquery.waypoints.min.js"></script>
-    <script src="js/jquery.waypoints.js"></script>
 
 
 
