@@ -1,58 +1,80 @@
 body{
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
     /*margin-top: 50px;  Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .full {
     background: url('../img/landing_page.jpg') no-repeat center center fixed;
-    padding-top: 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    text-align: center;
+    color: white;
 }
 
 header{
+    margin-bottom: 50px;
+}
 
+.container-fluid{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.divider{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.feature{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.title-section{
+    margin-bottom: 25px;
+}
+
+.description-section{
+    margin-bottom: 50px;
 }
 
 .about-section {
-    height: 100%;
-    background: #eee;
+
 }
 
 .service-section {
-    height: 100%;
-    background: #fff;
+
 }
 
 .work-section {
-    height: 100%;
-    background: #eee;
+
 }
 
 .client-section {
-    height: 100%;
-    background: #fff;
+
 }
 
 .contact-section {
-    height: 100%;
-    background: #eee;
+
 }
 
 .service-section img{
-	width: 50%;
+	width: 150px;
 }
 
 .client-section img{
     width:150px;
+    margin-bottom: 40px;
 }
 
-.title{
-	text-align: center;
-}
+.header-title{
 
+}
 
 .slow {
     -webkit-transition:all 3.0s linear;
@@ -136,8 +158,40 @@ header{
 
 
 .span {
+    margin-bottom: 50px;
     display: none;
 }
+
+
+h1{
+    line-height: 110%;
+}
+
+p{
+    font-size: 16px;
+    max-width: 480px;
+    line-height: 150%;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 0px;
+
+}
+
+p + p {
+    text-indent: 2em;
+    margin-top: 0;
+}
+
+.block_center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+blockquote{
+    padding-top: 100px;
+}
+
+
 
 
 
