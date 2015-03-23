@@ -1,10 +1,12 @@
 body{
 	font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
     /*margin-top: 50px;  Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .full {
-    background: url('../img/landing_page.jpg') no-repeat center center fixed;
+    background: url('../img/108H.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -16,17 +18,43 @@ body{
 }
 
 header{
-    margin-bottom: 50px;
+    margin-bottom: 0px;
+
+}
+
+footer{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .container-fluid{
     margin-right: 100px;
     margin-left: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
+.frame_pair{
+    background-color: ;
+    color: #597387;
+}
+
+.frame_impair{
+    border-top: #5a6288;
+    background-color: #f9faff;
+    color: #5a6288;
+}
+
+.border-bottom {
+  border-bottom: 1px #f2f2f2 solid;
+}
+
 .divider{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 
@@ -37,6 +65,7 @@ header{
 
 .title-section{
     margin-bottom: 25px;
+    color:#AA00FF;
 }
 
 .description-section{
@@ -61,6 +90,10 @@ header{
 
 .contact-section {
 
+}
+
+.full img{
+    width: 100px;
 }
 
 .service-section img{
