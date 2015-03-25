@@ -18,22 +18,12 @@ body{
 }
 
 header{
-    margin-bottom: 0px;
 
-}
-
-.navbar-nav ul{
-    opacity: 0.8;
-    color: red;
-}
-
-a {
-    color:#AA00FF;
 }
 
 footer{
-    padding-bottom: 50px;
-    padding-top: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     text-align: center;
     background-color: black;
     color: white;
@@ -101,10 +91,6 @@ footer{
 
 }
 
-.full img{
-    width: 100px;
-}
-
 .service-section img{
 	width: 150px;
 }
@@ -112,10 +98,6 @@ footer{
 .client-section img{
     width:150px;
     margin-bottom: 40px;
-}
-
-.header-title{
-
 }
 
 .slow {
@@ -215,7 +197,7 @@ p{
     max-width: 480px;
     line-height: 150%;
     margin-bottom: 0;
-    margin-left: 100px;
+    margin-left: 0px;
     margin-right: 0px;
 
 }
@@ -231,7 +213,7 @@ p + p {
 }
 
 blockquote{
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 
