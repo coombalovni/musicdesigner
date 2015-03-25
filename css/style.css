@@ -22,6 +22,15 @@ header{
 
 }
 
+.navbar-nav ul{
+    opacity: 0.8;
+    color: red;
+}
+
+a {
+    color:#AA00FF;
+}
+
 footer{
     padding-bottom: 50px;
     padding-top: 50px;
@@ -198,6 +207,7 @@ footer{
 
 h1{
     line-height: 110%;
+    font-weight: 300;
 }
 
 p{
