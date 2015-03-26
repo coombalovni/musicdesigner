@@ -21,12 +21,33 @@ header{
 
 }
 
+.navbar-default .navbar-header > a {
+    color: #FAFAFA;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #FAFAFA;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #AA00FF;
+    font-weight: 400;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: red;
+}
+
 footer{
-    padding-bottom: 10px;
-    padding-top: 10px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color: #AA00FF;
+    color: #F3E5F5;
+    text-align: center;
 }
 
 .container-fluid{

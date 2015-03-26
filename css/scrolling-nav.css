@@ -16,9 +16,10 @@
 
     .top-nav-collapse {
         padding: 0;
-        background-color: white;
+        background-color: #212121;
         opacity: 0.8;
     }
+
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
