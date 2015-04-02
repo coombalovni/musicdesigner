@@ -1,12 +1,12 @@
 body{
 	font-family: 'Open Sans', sans-serif;
     font-weight: 300;
-    line-height: 1.4;
+    line-height: 30px;
     /*margin-top: 50px;  Required margin for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .full {
-    background: url('../img/108H.jpg') no-repeat center center fixed;
+    background: url('../img/white_press.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -21,34 +21,55 @@ header{
 
 }
 
-.navbar-default .navbar-header > a {
-    color: #FAFAFA;
-    font-weight: 400;
+
+footer{
+    text-align: center;
+    background-color: #bcbfc8;
+    color: #F3E5F5;
+    text-align: center;
 }
 
+/* navbar */
+.navbar-default {
+    border-color: #FFFFFF;
+}
+/* title */
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+.navbar-default .navbar-brand:hover{
+    color:#EEEEEE;
+}
+.navbar-default .navbar-brand:focus {
+    color: #FFFFFF;
+}
+
+/* link */
 .navbar-default .navbar-nav > li > a {
-    color: #FAFAFA;
-    font-weight: 400;
+    color: #FFFFFF;
 }
 
-.navbar-default .navbar-nav > li > a:hover {
-    color: #AA00FF;
-    font-weight: 400;
+.navbar-default .navbar-nav > li > a:hover{
+    color:#EEEEEE;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: white;
 }
 
 .navbar-default .navbar-nav > .active > a, 
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #555;
-    background-color: red;
+    color: white;
+    background-color: #2e3033;
 }
 
-footer{
-    text-align: center;
-    background-color: #AA00FF;
-    color: #F3E5F5;
-    text-align: center;
+.navbar-default .navbar-nav > .open > a, 
+.navbar-default .navbar-nav > .open > a:hover, 
+.navbar-default .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
 }
+
 
 .container-fluid{
     margin-right: 100px;
@@ -58,15 +79,15 @@ footer{
     text-align: center;
 }
 
-.frame_pair{
-    background-color: ;
-    color: #597387;
+.frame{
+    background-color: white;
+    color: #888;
 }
 
-.frame_impair{
-    border-top: #5a6288;
-    background-color: #f9faff;
-    color: #5a6288;
+.frame2{
+    border-top:solid #f2fbff 1px;
+    background-color: ;
+    color:;
 }
 
 .border-bottom {
@@ -84,8 +105,11 @@ footer{
 }
 
 .title-section{
+    font-size: 30px;
+    line-height: 48px;
+    font-weight: 400;
     margin-bottom: 25px;
-    color:#AA00FF;
+    color:#33536d;
 }
 
 .description-section{
@@ -209,8 +233,20 @@ footer{
 
 
 h1{
-    line-height: 110%;
-    font-weight: 300;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    color:#FFFFFF;
+}
+
+h3 {
+    color:#33536d;
+    font-weight: 400;
+}
+
+.subtitle{
+    color:#FFFFFF;
+    font-weight: 400;
 }
 
 p{
