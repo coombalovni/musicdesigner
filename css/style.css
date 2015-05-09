@@ -6,7 +6,7 @@ body{
 }
 
 .full {
-    background: url('../img/blue_press.jpg') no-repeat center center fixed;
+    background: url('../img/192H.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -97,6 +97,7 @@ footer{
   background-size: 72px 72px;
   background-repeat-x: no-repeat;
   background-repeat-y: no-repeat;
+  background-repeat: no-repeat;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
