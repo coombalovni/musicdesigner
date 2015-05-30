@@ -5,6 +5,9 @@
 
 $(document).ready(function(){
 
+    $( ".full" ).fadeIn( "slow", function() {
+    // Animation complete
+    });
 
     $('.single-item').slick({
     slide: 'img',

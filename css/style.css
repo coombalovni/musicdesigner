@@ -14,6 +14,7 @@ body{
     padding-top: 300px;
     padding-bottom: 300px;
     color: white;
+    display: none;
 }
 
 .frame{
