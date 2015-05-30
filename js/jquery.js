@@ -3,9 +3,30 @@
   }, {offset: 900});
 });*/
 
+
 $(document).ready(function(){
 
-    $( ".full" ).fadeIn( "slow", function() {
+      $( ".full" ).fadeIn( "fast", function() {
+    // Animation complete
+    });
+
+      $( "#about" ).fadeIn( "fast", function() {
+    // Animation complete
+    });
+
+      $( "#service" ).fadeIn( "fast", function() {
+    // Animation complete
+    });
+
+    $( "#work" ).fadeIn( "fast", function() {
+    // Animation complete
+    });
+
+    $( "#client" ).fadeIn( "fast", function() {
+    // Animation complete
+    });
+
+    $( "#contact" ).fadeIn( "fast", function() {
     // Animation complete
     });
 
